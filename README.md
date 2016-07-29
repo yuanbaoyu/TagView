@@ -11,12 +11,11 @@ Parameter Description
 
 ![image](https://github.com/yuanbaoyu/TagView/raw/master/preview/img2.png)  
 
-If you need Label in your custom View
-
-  1、create an new view class extends YourView
-  2、use LabelViewHelper as your Member objects
-  3、In Constructor function and onDraw function call LabelViewHelper method.
-  4、Call the LabelViewHelper method in other functions
+### If you need Label in your custom View
+    1、create an new view class extends YourView
+    2、use LabelViewHelper as your Member objects
+    3、In Constructor function and onDraw function call LabelViewHelper method.
+    4、Call the LabelViewHelper method in other functions
   
 ### like as follows
     public class LabelXXXView extends YourView {
