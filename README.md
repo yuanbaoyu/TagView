@@ -18,9 +18,8 @@ If you need Label in your custom View
   3、In Constructor function and onDraw function call LabelViewHelper method.
   4、Call the LabelViewHelper method in other functions
   
-### like as follows:  
-
-public class LabelXXXView extends YourView {
+### like as follows
+    public class LabelXXXView extends YourView {
     LabelViewHelper utils;
     public LabelXXXView(Context context) {
         this(context, null);
@@ -86,3 +85,4 @@ public class LabelXXXView extends YourView {
         utils.setLabelTextSize(this, textSize);
     }
 }
+
