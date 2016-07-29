@@ -20,7 +20,7 @@ If you need Label in your custom View
   
 like as follows:  
 
-public class LabelXXXView extends YourView {
+### public class LabelXXXView extends YourView {
     LabelViewHelper utils;
     public LabelXXXView(Context context) {
         this(context, null);
